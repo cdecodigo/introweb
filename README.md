@@ -20,8 +20,10 @@ Github desktop es una herramienta visual para trabajar con repositorios de codig
 ## Crear un repositorio y clonarlo
 **Crear Nuevo Repositorio**
 ![Crear nuevo repositorio](https://media1.giphy.com/media/RGeayzgZOLsG5CAO4D/giphy.gif)
+
 Al seleccionar _New Repository_ nos abre la siguiente ventana
 ![Datos Repositorio](https://media3.giphy.com/media/h4erwvfrPRG9iySu26/giphy.gif)
+
 Colocamos los datos del repositorio y creamos 
 seleccionando _Create repository_, pasando a mostar lo sig.
 ![Muestra del repositorio creado](https://i.ibb.co/CW6xYWL/Muestra-del-repositorio-creado.png)
