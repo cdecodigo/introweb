@@ -34,10 +34,32 @@ Colocamos los datos del repositorio y creamos seleccionando _Create repository_,
 
 ___Subir Repositorio a la Nube, Abrir Repositorio en VS Code y Mostrar Repositorio en el Explorador___
 
-Aqui nos muestras de forma respectiva las instrucciones de _Publish Repository_ , _Open in Visual Studio Code_ y _Show in Explorer_
+Aqui nos muestras de forma respectiva las instrucciones de: 
+
+-_Publish Repository_
+
+>La cual al momento de seleccionarla el repositorio creado se subira a la nube de GitHub publicandolo con otras personas
+
+-_Open in Visual Studio Code_
+
+>Al accionarlo nos mandara hacia el editor Visual Studio Code abriendo todos los archivos del repositorio
+
+-_Show in Explorer_
+
+>Nos muestra los archivos de nuestro repositorio en el navegador
 
 ![Abrir reporsitorio](https://media0.giphy.com/media/LO2xzRIjhx7AVIncPs/giphy.gif)
 
 ___Clonar Repositorio___
+
+__Clonar Repositorio Local__
+
+En la siguiente instruccion muestra donde ubicamos para realizar la clonacion del repositorio
+
+![Clonar Repositorio Local](https://media1.giphy.com/media/MXctOgi3T5V0uVrlAU/giphy.gif)
+
+Al seleccionar la opcion _Clone Repository_ nos muestra la siguiente ventana
+
+
 
 ## Abrirlo, hacer commits y pushear
