@@ -32,6 +32,12 @@ Colocamos los datos del repositorio y creamos seleccionando _Create repository_,
 
 ![Muestra del repositorio creado](https://i.ibb.co/CW6xYWL/Muestra-del-repositorio-creado.png)
 
+___Subir Repositorio a la Nube, Abrir Repositorio en VS Code y Mostrar Repositorio en el Explorador___
+
+Aqui nos muestras de forma respectiva las instrucciones de _Publish Repository_ , _Open in Visual Studio Code_ y _Show in Explorer_
+
+![Abrir reporsitorio](https://media0.giphy.com/media/LO2xzRIjhx7AVIncPs/giphy.gif)
+
 ___Clonar Repositorio___
 
 ## Abrirlo, hacer commits y pushear
