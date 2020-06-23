@@ -36,15 +36,15 @@ ___Subir Repositorio a la Nube, Abrir Repositorio en VS Code y Mostrar Repositor
 
 Aqui nos muestras de forma respectiva las instrucciones de: 
 
--_Publish Repository_
+- _Publish Repository_
 
 >La cual al momento de seleccionarla el repositorio creado se subira a la nube de GitHub publicandolo con otras personas
 
--_Open in Visual Studio Code_
+- _Open in Visual Studio Code_
 
 >Al accionarlo nos mandara hacia el editor Visual Studio Code abriendo todos los archivos del repositorio
 
--_Show in Explorer_
+- _Show in Explorer_
 
 >Nos muestra los archivos de nuestro repositorio en el navegador
 
@@ -52,7 +52,7 @@ Aqui nos muestras de forma respectiva las instrucciones de:
 
 ___Clonar Repositorio___
 
-__Clonar Repositorio Local__
+_Clonar Repositorio Local_
 
 En la siguiente instruccion muestra donde ubicamos para realizar la clonacion del repositorio
 
