@@ -17,6 +17,15 @@ Vamos a descargar Vscode, la herramienta mas popular actualmente
 [https://desktop.github.com/](https://desktop.github.com/)
 Github desktop es una herramienta visual para trabajar con repositorios de codigo, te preguntaras ¿que es un repositorio? bueno en el contexto de programacion un repositorio es un lugar centralizado donde guardar tu codigo fuera de tu computadora, en este caso estamos usando Github y pronto veremos como crear y manjar tu propio repositorio
 
+## GitHub Website
+
+[https://github.com/](https://github.com/)
+Pagina en la cual crearemos nuestra cuenta y cual podemos manejar nuestros repositorios como una Red Social de Programacion
+
+_Crear Cuenta en GitHub_
+
+![Crear Cuenta](https://media1.giphy.com/media/Izu0Lz9wj9sRCLMbFs/giphy.gif)
+
 ## Crear un repositorio y clonarlo
 ***Crear Nuevo Repositorio***
 
@@ -60,6 +69,6 @@ En la siguiente instruccion muestra donde ubicamos para realizar la clonacion de
 
 Al seleccionar la opcion _Clone Repository_ nos muestra la siguiente ventana
 
-
+![Opciones de Clonado](https://media1.giphy.com/media/Pk3ztEC3wLwg5icT4r/giphy.gif)
 
 ## Abrirlo, hacer commits y pushear
