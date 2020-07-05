@@ -3,7 +3,6 @@
 Hola Gracias por acompañarnos en este curso introductorio a la web. A continuacion econtraras instrucciones para configurar tu ambiente de trabajo hay algunas cosas que ocupamos para hacernos la vida mas facil ;).
 
 
-
 ## Editor de texto
 
 vamos a trabajar principalmente con codigo y es combeniente tener una herramienta que nos ayude a resaltar errores asi como auto completar palabras clabes, prontro sabras a que me refiero no te preocupes. 
@@ -70,5 +69,3 @@ En la siguiente instruccion muestra donde ubicamos para realizar la clonacion de
 Al seleccionar la opcion _Clone Repository_ nos muestra la siguiente ventana
 
 ![Opciones de Clonado](https://media1.giphy.com/media/Pk3ztEC3wLwg5icT4r/giphy.gif)
-
-## Abrirlo, hacer commits y pushear
