@@ -1,15 +1,16 @@
 # CSS
-
-  
+CSS es un lenguaje que describe el estilo (como se ve) de un documento HTML.
+CSS describe cómo deben mostrarse los elementos (como van posicionados) HTML.
 
 ## inline css
-
+la manera mas rapida de agregar estilos a nuestro html es por medio de la propiedad style
 ```html
-
 <h1 style="color: green">Este texto va aparecer verde</h1>
-
 ```
-
+puedes agregar multiples propiedades separandolas con punto y coma
+```html
+<h1 style="color: green">Este texto va aparecer verde</h1>
+```
 ## selector de tag
 ```css
 /* Indicamos que la etiqueta h1 tendrá un color de letra blanco */
