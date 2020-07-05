@@ -16,10 +16,6 @@ _Generalidades_
 
 >![Alt Text](https://i.ibb.co/NLbwwVm/1.png)
 
-- Los nombres de los elementos, los nombres de los atributos y los valores de los atributos se suelen escribir en minúsculas, aunque se pueden escribir en mayúsculas. 
-
->![Alt Text](https://i.ibb.co/9tdYyMN/2.png)
-
 ## Tags (etiquetas)
 
 Los tags presentan frecuentemente dos partes, su apertura y cierre, y se encierran ambas partes entre símbolos "menor que" y "mayor que".
@@ -107,7 +103,3 @@ En el código fuente HTML los enlaces se identifican mediante la etiqueta  &lt;a
 Los enlaces de texto se muestran en los navegadores de color azul y subrayados.
 
 >![Alt Text](https://i.ibb.co/hs2tkgD/11.png)
-
-## atajo html vscode
-aqui es mostrar como crear un archivo html en vs code
-y como abrirlo en el explorador 
