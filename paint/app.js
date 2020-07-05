@@ -17,10 +17,10 @@ document.addEventListener("mousemove", draw);
 document.addEventListener("mousedown", setPosition);
 document.addEventListener("mouseenter", setPosition);
 
-// last known position
+// ultima posicion del cursor
 var pos = { x: 0, y: 0 };
 
-// new position from mouse events
+// obtenemo la posicion actual del cursor del evento
 function setPosition(e) {
   pos.x = e.clientX-7;
   // pos.x = e.clientX;
