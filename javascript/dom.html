@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Puedo entrar al bar</h1>
+
+    <span>Ingresa tu edad</span>
+    <input id="edad" type="number">
+
+    <button onclick="guardarEdad()">
+        calcular
+    </button>
+
+    <hr>
+
+    <p id="tweet"></p>
+    <button onclick="getTweet()">
+        get a new tweet
+    </button>
+
+</body>
+<script>
+    async function getTweet() {
+        const response = await fetch('https://api.kanye.rest/')
+        console.log(response)
+        const data = await response.json()
+        console.log(data)
+        const tweet = document.querySelector('#tweet')
+        tweet.innerHTML = data.quote
+    }
+    getTweet()
+
+
+
+
+    let holaMundo = document.querySelector('h1')
+    let edadInput = document.querySelector('#edad')
+
+    console.log(holaMundo)
+    holaMundo.onclick = () => { 
+        holaMundo.innerHTML = edadInput.value
+    }
+
+    function guardarEdad() {
+        if(edadInput.value >= 18) {
+            holaMundo.innerHTML = 'si adelante'
+        } else {
+            holaMundo.innerHTML = 'no, intenta mas tarde'
+        }
+    }
+
+
+</script>
+</html>
