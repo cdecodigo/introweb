@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pokedex</h1>
+
+    <div>
+        <input id="busqueda" type="text">
+
+        <button onclick="buscarPokemon()">
+            Buscar
+        </button>
+    </div>
+
+
+    <div class="linea"></div>
+
+    <h2 id="pokemon-nombre"></h2>
+
+    <ul id="pokemon-abilities">
+
+    </ul>
+
+    <img id="pokemon-img" src="" alt="">
+</body>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .linea {
+        margin: 8px;
+        width: 100vw;
+        height: 2px;
+        background-color: crimson;
+    }
+</style>
+<script>
+
+    async function buscarPokemon() {
+        const busqueda = document.querySelector('#busqueda').value
+        const pokemonNameTag = document.querySelector('#pokemon-nombre')
+        const pokemonAbilitiesTag = document.querySelector('#pokemon-abilities')
+        const pokemonImgTag = document.querySelector('#pokemon-img')
+
+        console.log(busqueda)
+        // buscar el pokemon en la poke api
+        const response = await fetch('https://pokeapi.co/api/v2/pokemon/'+busqueda)
+        // validacion
+        if (response.status !== 200) {
+            console.error('Ups algo salio mal')
+            pokemonNameTag.innerHTML = 'Error'
+            pokemonAbilitiesTag.innerHTML = ''
+            pokemonImgTag.src = ''
+            return 
+        }
+        const data = await response.json()
+        console.log(data)
+        const pokemonName = data.name
+        const pokemonAbilies = data.abilities
+        pokemonAbilitiesTag.innerHTML = ''
+        pokemonAbilies.forEach(abilitie => {
+            const abilitieTag = document.createElement('li')
+            abilitieTag.innerHTML = abilitie.ability.name
+            pokemonAbilitiesTag.appendChild(abilitieTag)
+        });
+        pokemonNameTag.innerHTML = pokemonName
+
+        // insertar imagen
+        pokemonImgTag.src = data.sprites.front_default
+    }
+</script>
+</html>
