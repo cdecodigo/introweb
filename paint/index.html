@@ -10,13 +10,14 @@
 
     <body>
         <div class="paleta">
-         <input type="number" value="20" id="hex" placeholder="enter hex color"></input>
+         <input type="number" value="20" id="hex"></input>
          <div class="color rojo" onclick="setColor('#d12411')"></div>
          <div class="color verde" onclick="setColor('#8cd615')"></div>
          <div class="color azul" onclick="setColor('#139cbe')"></div>
          <div class="color cafe" onclick="setColor('#614228')"></div>
          <div class="color amarillo" onclick="setColor('#dacf39')"></div>
          <div class="color morado" onclick="setColor('#591797')"></div>
+         <div class="color blanco" onclick="setColor('#ffffff')"></div>
         </div>
         <canvas id="draw"></canvas>
     
@@ -30,6 +31,7 @@
             margin: 2px;
             height: 32px;
             width: 32px;
+            border: 1px solid black;
         }
         .rojo {
             background-color: #d12411;
@@ -49,5 +51,9 @@
         .morado {
             background-color: #591797;
         }
+        .blanco{
+            background-color: #ffffff;
+        }
+
     </style>
 </html>
