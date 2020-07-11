@@ -18,6 +18,11 @@
          <div class="color amarillo" onclick="setColor('#dacf39')"></div>
          <div class="color morado" onclick="setColor('#591797')"></div>
          <div class="color blanco" onclick="setColor('#ffffff')"></div>
+         <!-- crear los divs para seleccionar el line cap -->
+         <!-- onclick funcionlinecap('butt') -->
+         <div class="color"  onclick="setlinecap('round')"> R </div>
+         <div class="color" onclick="setlinecap('butt')"> B </div>
+         <div class="color" onclick="setlinecap('square')"> S </div>
         </div>
         <canvas id="draw"></canvas>
     
@@ -27,6 +32,8 @@
         .paleta {
             display: flex;
         }
+
+
         .color {
             margin: 2px;
             height: 32px;

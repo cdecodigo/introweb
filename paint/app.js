@@ -55,6 +55,15 @@ function setColor(newcolor) {
   color = newcolor;
 }
 
+// declarar la variable para line cap
+let linecap = 'round'
+// hacer la funcion para cambiar su valor
+function setlinecap(newcap) {
+  console.log(newcap);
+  linecap = newcap;
+}
+
+
 function draw(e) {
   console.log('hola', e.buttons);
   if (e.buttons === 0) return; // if mouse is pressed.....
@@ -63,7 +72,8 @@ function draw(e) {
   ctx.beginPath(); // begin the drawing path
 
   ctx.lineWidth = Number(tamaño); // width of lineS
-  ctx.lineCap = "round"; // rounded end cap
+  ctx.lineCap = linecap; // rounded end cap
+  // "butt" || "round" || "square";
 
   if (e.buttons === 2) {
     ctx.strokeStyle = '#ffffff';
